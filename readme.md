@@ -29,7 +29,7 @@ Objetivos Extras:
 
 ### Backend 
 
-La realización del backend puede ser desarrollado en la Tecnología que sea de su expertiz (PHP, NodeJS, Python, Ruby)
+La realización del backend puede ser desarrollado en la Tecnología que sea de su expertiz (PHP, NodeJS, Python, Ruby, Java)
 
 Objetivos Extras:
 * Que el frontend este totalmente aislado del Backend
