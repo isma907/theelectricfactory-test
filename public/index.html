@@ -3,53 +3,114 @@
 <head>
 	<meta charset="UTF-8">
 	<title>THEF Tech Test</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/sweetalert.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link href='https://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+
 </head>
 <body>
-	<div>
-		<div>
-			<img src="http://theelectricfactory.com/html/img/logo.png">
+
+
+	<div class="header container-fluid">	
+		
+		<div class="container">	
+
+
+			<button  id="btninicio" type="button" class="btn btn-primary btn-lg btn3d pull-right"><i class="fa fa-home"></i> Inicio</button>
+			<button id="btnjugar" type="button" class="btn btn-success btn-lg btn3d pull-right" data-toggle="modal" data-target="#myModal"><i class="fa fa-gamepad"></i> Jugar</button>
 		</div>
-		<div>
-			<ul>
-				<li><a href="#">Inicio</a></li>
-				<li><a href="#">Jugar</a></li>				
-			</ul>
-		</div>		
+
+
 	</div>
-	<div>
-		<div class="active">
+
+
+
+
+	<div class="container">
+
+		<div id="home">
 			<h1>TA TE TI</h1>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem tempore atque saepe error, nulla esse odio, a porro aperiam ipsam debitis quisquam. Doloribus modi iure dolor rem libero voluptatem soluta architecto reprehenderit nihil veniam delectus, aliquid iusto maxime similique dolore natus consequatur quis magni aut minus, accusantium eos alias? Tempore, sed commodi deserunt ducimus a quibusdam possimus velit ipsum in hic, ipsa delectus. Sit molestiae voluptatem saepe exercitationem, architecto minima quae repellat libero beatae hic veritatis praesentium eius fugiat nam eos reprehenderit, harum officia ex. Ad eaque excepturi optio similique officiis dolore voluptates consequatur, ut dignissimos. Iure hic ad sunt laborum, placeat ipsa ipsam, minima soluta in, blanditiis cum consequuntur quod dignissimos inventore dolore est debitis explicabo fuga quibusdam eaque reiciendis unde fugiat eum. Enim labore optio repudiandae, ab numquam obcaecati perspiciatis quam magni iste ducimus adipisci impedit reiciendis animi veniam. Quia eos incidunt, illo illum impedit molestiae, esse porro repudiandae quae, optio sed facilis, nam debitis earum neque suscipit architecto? Quisquam soluta asperiores impedit, quod sequi a eaque, labore ipsa, perspiciatis exercitationem pariatur vero. Reiciendis quisquam illum fugiat totam, consequuntur culpa. Aut veritatis cumque et quae doloremque, nulla unde facilis autem porro quod provident magni nisi consequatur, nesciunt dolorem!</p>
 		</div>
-		<div>
-			<h1>LOGIN FORM</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem tempore atque saepe error, nulla esse odio, a porro aperiam ipsam debitis quisquam. Doloribus modi iure dolor rem libero voluptatem soluta architecto reprehenderit nihil veniam delectus, aliquid iusto maxime similique dolore natus consequatur quis magni aut minus, accusantium eos alias? Tempore, sed commodi deserunt ducimus a quibusdam possimus velit ipsum in hic, ipsa delectus. Sit molestiae voluptatem saepe exercitationem, architecto minima quae repellat libero beatae hic veritatis praesentium eius fugiat nam eos reprehenderit, harum officia ex.</p>
-			<form>
-				<div><label>Input</label><input type="text"></div>
-				<div><label>Input</label><input type="text"></div>
-				<div><label>Input</label><input type="text"></div>
-				<div><label>Input</label><input type="text"></div>
-				<div><a href="#">Jugar</a></div>
-			</form>
-		</div>
-		<div>
-			<h1>JUEGO</h1>
-			<p>STATUS</p>
-			<div>
-				<div>X</div>
-				<div>0</div>
-				<div>X</div>
-				<div>0</div>
-				<div>X</div>
-				<div>0</div>
-				<div>X</div>
-				<div>0</div>
-				<div>X</div>
-			</div>
-		</div>
-	</div>
+
+
+
+
+
+
+
+		<!-- Modal -->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="myModalLabel">Login Form</h4>
+					</div>
+					<div class="modal-body">
+						<div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem tempore atque saepe error, nulla esse odio, a porro aperiam ipsam debitis quisquam. Doloribus modi iure dolor rem libero voluptatem soluta architecto reprehenderit nihil veniam delectus, aliquid iusto maxime similique dolore natus consequatur quis magni aut minus, accusantium eos alias? Tempore, sed commodi deserunt ducimus a quibusdam possimus velit ipsum in hic, ipsa delectus. Sit molestiae voluptatem saepe exercitationem, architecto minima quae repellat libero beatae hic veritatis praesentium eius fugiat nam eos reprehenderit, harum officia ex.</p>
+							<hr>
+							<form id="login">
+								<div><label>Nombre</label><br><input type="text" id="nombre" ></div>
+								<div><label>Apellido</label><br><input type="text" id="apellido" ></div>
+								<div><label>Email</label><br><input type="email" id="email" ></div>
+								<input type="submit" class="btn btn-success btn-lg btn3d" value="Jugar">
+
+
+							</form>
+						</div>
+					</div>
+      <!--<div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+    </div>-->
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="juego">
+	<h1>JUEGO</h1>
+	Nombre de Jugador: <b><span id="usertext"></span></b>
+	<p>STATUS</p>
 	<div>
-		<p>Catriel Müller</p>		
+		<div id="tateti"></div>
 	</div>
+</div>
+</div>
+
+
+
+<div class="footer">
+	<p>Ismael Fernández</p>		
+</div>
+
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script> 
+<script src="js/sweetalert.js"></script> 
+<script src="js/script.js"></script>
 </body>
 </html>

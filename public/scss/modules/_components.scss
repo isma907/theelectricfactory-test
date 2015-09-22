@@ -1,0 +1,8 @@
+.input-group .form-control:first-child, .input-group-addon:first-child, .input-group-btn:first-child > .btn, .input-group-btn:first-child > .btn-group > .btn, .input-group-btn:first-child > .dropdown-toggle, .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle), .input-group-btn:last-child > .btn-group:not(:last-child) > .btn {
+	border-radius:0;}
+
+input[type=text],input[type=email]{
+	width:100%;
+	padding:5px;
+	margin:10px 0px 10px
+}
